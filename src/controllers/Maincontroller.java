@@ -1,9 +1,9 @@
 package controllers;
 
-import views.Mainconsole;
+import models.Filehandler;
 
 public class Maincontroller {
     public Maincontroller(){
-        new Mainconsole().Welcome();
+        new Filehandler().readFile();
     }
 }
